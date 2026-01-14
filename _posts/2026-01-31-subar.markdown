@@ -5,10 +5,12 @@ date:   2025-01-31 00:00:00 +00:00
 image: /images/power_improvement.png
 categories: research
 author: "Jesse Hoekstra"
-authors: "<strong>Jesse Hoekstra</strong>, Derya Güler"
+authors: "<strong>Jesse Hoekstra</strong>, Frank Windmeijer"
 venue: "XXX"
 website: https://jesse-hoekstra.github.io/subar
 ---
-This paper investigates the mediation effect of trading volume to explore the relationship
-between investor sentiment, measured as a volatility forecast (VIX), and the return of tech
-companies based on the mediation analysis
+We consider instead the data dependent critical value function conditioning on the second-smallest
+eigenvalue, as this eigenvalue is the appropriate indicator for weak identification.
+We find that the data dependent critical value function of GKM also applies to this
+conditioning and show that this test has correct size and power strictly higher than
+the GKM test when the number of parameters not under test is larger than one.
