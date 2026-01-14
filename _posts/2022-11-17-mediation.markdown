@@ -3,7 +3,7 @@ layout: post
 title:  "The Mediating Effect of Trading Volume on the Relationship between Investor Sentiment and the Return of Tech Companies"
 date:   2022-11-17 00:00:00 +00:00
 image: /images/mediation_paper.png
-categories: past
+categories: research
 author: "Jesse Hoekstra"
 authors: "<strong>Jesse Hoekstra</strong>, Derya Güler"
 venue: "Journal of Behavioral Finance"
