@@ -7,7 +7,6 @@ categories: past
 author: "Jesse Hoekstra"
 authors: "<strong>Jesse Hoekstra</strong>, Derya Güler"
 venue: "Journal of Behavioral Finance"
-arxiv: https://www.tandfonline.com/doi/epdf/10.1080/15427560.2022.2138394
 website: https://www.tandfonline.com/doi/10.1080/15427560.2022.2138394
 ---
 This paper investigates the mediation effect of trading volume to explore the relationship
