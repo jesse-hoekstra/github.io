@@ -1,15 +1,14 @@
 ---
 layout: post
-title:  "Fuzzy Metaballs: Approximate Differentiable Rendering with Algebraic Surfaces"
-date:   2022-07-21 22:21:59 +00:00
-image: /images/fuzzy22.png
-categories: research
-author: "Leo Keselman"
-authors: "<strong>Leonid Keselman</strong>, Martial Hebert"
-venue: "European Conference on Computer Vision (Oral)"
-arxiv: https://arxiv.org/abs/2207.10606
-code: https://github.com/leonidk/fuzzy-metaballs
-website: https://leonidk.github.io/fuzzy-metaballs/
-youtube: https://www.youtube.com/watch?v=Ec7cxEc9eOU
+title:  "The Mediating Effect of Trading Volume on the Relationship between Investor Sentiment and the Return of Tech Companies"
+date:   2022-11-17 00:00:00 +00:00
+image: /images/mediation_paper.png
+categories: past
+author: "Jesse Hoekstra"
+authors: "<strong>Jesse Hoekstra</strong>, Derya Güler"
+venue: "Journal of Behavioral Finance"
+arxiv: https://www.tandfonline.com/doi/epdf/10.1080/15427560.2022.2138394?needAccess=true
 ---
-An approximate differentiable renderer for a compact, interpretable representation, which we call Fuzzy Metaballs. Our approximate renderer focuses on rendering shapes via depth maps and silhouettes. It sacrifices fidelity for utility, producing fast runtimes and high-quality gradient information that can be used to solve vision tasks.
+This paper investigates the mediation effect of trading volume to explore the relationship
+between investor sentiment, measured as a volatility forecast (VIX), and the return of tech
+companies based on the mediation analysis
