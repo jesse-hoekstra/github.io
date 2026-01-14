@@ -7,7 +7,8 @@ categories: research
 author: "Jesse Hoekstra"
 authors: "<strong>Jesse Hoekstra</strong>, Derya Güler"
 venue: "Journal of Behavioral Finance"
-website: https://www.tandfonline.com/doi/10.1080/15427560.2022.2138394
+arxiv: https://www.tandfonline.com/doi/10.1080/15427560.2022.2138394
+website: <a href="/mediation">website</a>
 ---
 This paper investigates the mediation effect of trading volume to explore the relationship
 between investor sentiment, measured as a volatility forecast (VIX), and the return of tech
