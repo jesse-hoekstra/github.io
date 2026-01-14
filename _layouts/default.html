@@ -26,10 +26,10 @@
               <h1>
                 Jesse Hoekstra
               </h1>
-              <p></p>Jesse is a second-year DPhil in Statistics student at the <a href="https://www.ox.ac.uk">Univesity of Oxford</a>, <a href="https://www.nuffield.ox.ac.uk/people/profiles/jesse-hoekstra/">Nuffield College</a>, and recipient of the <a href="https://www.ox.ac.uk/clarendon/scholar-class-lists/scholars-2020-21-to-2029-30">Clarendon Fund Scholarship</a>. He is advised by <a href="https://www.stats.ox.ac.uk/people/frank-windmeijer">Frank Windmeijer</a> and <a href="https://www.stats.ox.ac.uk/~teh/">Yee Whye Teh</a>. His work encompasses the intersection of statistics, econometrics, and machine learning. In particular, he has a strong interest in causality, the intricacies of deep learning methodologies, and their interplay in understanding complex systems. 
+              <p></p>I am a second-year DPhil in Statistics student at the <a href="https://www.ox.ac.uk">Univesity of Oxford</a>, <a href="https://www.nuffield.ox.ac.uk/people/profiles/jesse-hoekstra/">Nuffield College</a>, and recipient of the <a href="https://www.ox.ac.uk/clarendon/scholar-class-lists/scholars-2020-21-to-2029-30">Clarendon Fund Scholarship</a>. I am advised by <a href="https://www.stats.ox.ac.uk/people/frank-windmeijer">Frank Windmeijer</a> and <a href="https://www.stats.ox.ac.uk/~teh/">Yee Whye Teh</a>. My work encompasses the intersection of statistics, econometrics, and machine learning. In particular, I have a strong interest in causality, the intricacies of deep learning methodologies, and their interplay in understanding complex systems. 
               </p>
               <p>
-                Before starting his PhD, Jesse graduated with distinction and cum laude from the <a href="https://www.lse.ac.uk">London School of Economics and Political Science</a> (MSc) and the <a href="https://www.uva.nl/en:"></a>University of Amsterdam</a> (BSc), focusing on econometrical and machine learning methodologies.
+                Before starting my PhD, I graduated with distinction and cum laude from the <a href="https://www.lse.ac.uk">London School of Economics and Political Science</a> (MSc) and the <a href="https://www.uva.nl/en:"></a>University of Amsterdam</a> (BSc), focusing on econometrical and machine learning methodologies.
               </p>
               <p style="text-align:center">
                 <a href="mailto:jesse.hoekstra@nuffield.ox.ac.uk">Email</a> &nbsp;/&nbsp;
@@ -54,6 +54,62 @@
           {% for post in site.posts %}
           {% for cat in post.categories %}
           {% if cat == 'research' %}
+          <tr>
+            <td style="padding:2.5%;width:25%;vertical-align:middle;min-width:120px">
+              <img src="/tn{{post.image}}" alt="project image" style="width:auto; height:auto; max-width:100%;" />
+            </td>
+            <td style="padding:2.5%;width:75%;vertical-align:middle">
+              <h3>{{post.title}}</h3>
+              <br>
+              {{post.authors}}
+
+              <br>
+              <em>{{post.venue}}</em>, {{ post.date | date: "%Y" }}
+              <br>
+              {% if post.arxiv %}
+              <a href="{{post.arxiv}}">arxiv</a> /
+              {% endif %}
+              {% if post.video %}
+              <a href="{{post.video}}">video</a> /
+              {% endif %}
+              {% if post.code %}
+              <a href="{{post.code}}">code</a> /
+              {% endif %}
+              {% if post.poster %}
+              <a href="{{post.poster}}">poster</a> /
+              {% endif %}
+              {% if post.slides %}
+              <a href="{{post.slides}}">slides</a> /
+              {% endif %}
+              {% if post.website %}
+              <a href="{{post.website}}">website</a> /
+              {% endif %}
+              {% if post.youtube %}
+              <a href="{{post.youtube}}">youtube</a> /
+              {% endif %}
+              <p></p>
+              {{ post.excerpt }}
+            </td>
+          </tr>
+          {% endif %}
+          {% endfor %}
+          {% endfor %}
+        </table>
+        <br>
+        <br>
+        <br>
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+          <tr>
+            <td style="padding:2.5%;width:100%;vertical-align:middle">
+              <h2>Teaching</h2>
+            </td>
+          </tr>
+        </table>
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+
+          {% for post in site.posts %}
+          {% for cat in post.categories %}
+          {% if cat == 'teaching' %}
           <tr>
             <td style="padding:2.5%;width:25%;vertical-align:middle;min-width:120px">
               <img src="/tn{{post.image}}" alt="project image" style="width:auto; height:auto; max-width:100%;" />
