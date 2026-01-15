@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Moderating Effects of Firm Size on the Mediation Relation of Investor Sentiment to Returns Via Trading Volume"
-date:   2023-11-17 00:00:00 +00:00
+date:   2024-11-17 00:00:00 +00:00
 image: /images/moderation_paper.png
 categories: past_research
 author: "Jesse Hoekstra"
