@@ -70,6 +70,9 @@
               <br>
               <em>{{post.venue}}</em>, {{ post.date | date: "%Y" }}
               <br>
+              {% if post.journal %}
+              <a href="{{post.journal}}">journal</a> /
+              {% endif %}
               {% if post.arxiv %}
               <a href="{{post.arxiv}}">arxiv</a> /
               {% endif %}
@@ -132,6 +135,9 @@
               <br>
               <em>{{post.venue}}</em>, {{ post.date | date: "%Y" }}
               <br>
+              {% if post.journal %}
+              <a href="{{post.journal}}">journal</a> /
+              {% endif %}
               {% if post.arxiv %}
               <a href="{{post.arxiv}}">arxiv</a> /
               {% endif %}
